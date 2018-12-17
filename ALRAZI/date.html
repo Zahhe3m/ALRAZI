@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>date</title>
+</head>
+<link href="CSS/style.css" rel="stylesheet">
+<link href="CSS/font-awesome.min.css" rel="stylesheet">
+<link href="CSS/bootstrap.min.css" rel="stylesheet">
+<link href="CSS/ajax.min.css" rel="stylesheet" type="text/css" />
+
+
+<body>
+<!-- start 1 top -->
+<div class="top-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <ul class="contact-details">
+                <li><a href="#"><em class="fa fa-map-marker"></em>Turkey</a> </li>
+                <li><a href="#"><i class="fa fa-envelope-o"></i> info@al-razi.com</a>
+                </li>
+                <li><a href="#"><i class="fa fa-phone"></i> +90522222222222</a>
+                </li>
+				  <li></li>
+					<li><form class="form-inline my-2 my-lg-0">
+					      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					    </form> </li>
+<!-- start top -->
+<div class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon icon-bar"></span>
+					<span class="icon icon-bar"></span>
+					<span class="icon icon-bar"></span>
+				</button>
+				<a href="HOME.html" class="navbar-brand "><img src="img/1.png" width="100" /></a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+                <a href="HOME.html">Home</a>
+              </li>
+
+              <li>
+                <a href="trainingprogram.html">Training program</a>
+              </li>
+              <li>
+                <a href="#" class="active">booking</a>
+              </li>
+              <li>
+                <a href="Jobs.html">Jobs</a>
+              </li>
+              <li><a href="contact.html">Contact</a>
+              </li>
+							<li>
+                <a href="#" class="dropdown" onclick="myFunction()">Pages</a>
+                <div class="dropdown-content" id="myDropdown">
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                </div>
+              </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<hr>
+		<hr>
+
+	<div align="center">
+	<form method="post">
+ <div style="width: 400px;">
+ </div>
+ <div style="padding-bottom: 18px;">Name<span style="color: red;"> *</span><br>
+   <input type="text" id="data_1" name="data_1" style="width : 450px;" class="form-control"/>
+ </div>
+ <div style="padding-bottom: 18px;">Email<span style="color: red;"> *</span><br/>
+ <input type="text" id="data_3" name="data_3" style="width : 450px;" class="form-control"/>
+ </div>
+ <div style="padding-bottom: 18px;">address<span style="color: red;"> *</span><br/>
+ <input type="text" id="data_4" name="data_4" style="width : 250px;" class="form-control"/>
+ </div>
+ <div style="padding-bottom: 18px;">booking Date<span style="color: red;"> *</span><br/>
+ <input type="text" id="data_5" name="data_5" style="width : 250px;" class="form-control"/>
+ </div>
+ <div style="padding-bottom: 18px;">what are you looking for?<br/>
+ <span><input type="radio" id="data_6_0" name="data_6" value="Option1"/>General</span><br/>
+ <span><input type="radio" id="data_6_1" name="data_6" value="Option2"/>child doc</span><br/>
+ <span><input type="radio" id="data_6_2" name="data_6" value="Option3"/>counseler</span><br/>
+ </div>
+ <div style="padding-bottom: 18px;">which medical Center? <br/>
+ <span><input type="checkbox" id="data_7_0" name="data_7" value="Option1"/>Al- Razi</span><br/>
+ <span><input type="checkbox" id="data_7_1" name="data_7" value="Option2"/>Hidaya </span><br/>
+ <span><input type="checkbox" id="data_7_2" name="data_7" value="Option3"/>Shifa </span><br/>
+ </div>
+ <div style="padding-bottom: 18px;">Reason for booking?<span style="color: red;"> *</span><br/>
+ <input type="text" id="data_8" name="data_8" style="width : 450px;" class="form-control"/>
+ </div>
+ <div style="padding-bottom: 18px;">Comments<br/>
+ <textarea id="data_9" false name="data_9" style="width : 450px;" rows="6" class="form-control"></textarea>
+ </div>
+ <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
+ <div>
+ </div>
+ </form>
+		</div>
+	<hr><hr>
+<!-- start footer -->
+
+<footer>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" align="">
+                   <ul class="social-icon"><hr>
+		  <li><a href="#" class="fa fa-facebook"></a></li>
+						<li><a href="#" class="fa fa-twitter"></a></li>
+						<li><a href="#" class="fa fa-instagram"></a></li>
+						<li><a href="#" class="fa fa-pinterest"></a></li>
+						<li><a href="#" class="fa fa-google"></a></li> <hr>
+				  </ul>
+					 <hr>
+
+					<p>Copyright &copy; ALRAZI</p>
+					<hr>
+			  </div>
+			</div>
+		</div>
+	</footer>
+<script src="JS/jquery.js"></script>
+<script src="JS/bootstrap.min.js"></script>
+<script src="JS/1.js"></script>
+<script src="JS/2.js"></script>
+<script src="JS/custom.js"></script>
+<script src="JS/ajax.min.js" type="text/javascript"></script>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(e) {
+  if (!e.target.matches('.dropdown')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+</body>
+</html>
